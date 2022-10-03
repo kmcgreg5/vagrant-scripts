@@ -10,6 +10,8 @@ service httpd stop
 
 rm -rf /var/www/html
 ln -s /vagrant /var/www/html
+rc=$?
+echo "RETURN CODE:" $rc
 
 service httpd start
 
