@@ -1,0 +1,7 @@
+[core]
+	editor = nano
+[user]
+	name = Kai McGregor
+	email = kmcgreg@ibm.com
+[pull]
+	rebase = false
